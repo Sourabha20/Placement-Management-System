@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html>
+
+<head >
+<title>
+123
+</title>
+<link rel="stylesheet"href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<header style="background-color:#223B8B; color:white;text-align:center;font-size:50px"> WELCOME TO NMAM INSTITUTE OF TECHNOLOGY </header>
+<img src="nmamit2.jpg"  width="100%" height="100%">
+<br><br><br><br>
+<style>
+.btn-group button {
+  background-color: #153873; 
+  border: 1px solid green; 
+  color: white; 
+  padding: 40px 50px; 
+  cursor: pointer; 
+  width: 80%; 
+  height:40%;
+  display: block;
+  font-size:30px;
+  transition: all 0.5s;
+}
+
+.btn-group button:not(:last-child) {
+  border-bottom: none;
+}
+
+.btn-group button:hover {
+  background-color: #022052;
+}
+.btn-group button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.btn-group button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.btn-group button:hover span {
+  padding-right: 25px;
+}
+
+.btn-group button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+</style>
+</head>
+<body >
+<center><p style="font-size:50px;color:#05223B;font:small-caps;font-style: verdana"> PROGRAMMES OFFERED </p>
+<div class="btn-group btn-group-lg">
+ <center> <form action="p15.php"><button style="height:25%"><span>COMPUTER SCIENCE AND ENGINEERING</span></button></form></center>
+ 
+  <center><form action="ec1.php"><button><span>ELECTRONICS AND COMMUNICATION ENGINEERING</span></button></form></center>
+ <center><form action="bt1.php"><button><span>BIOTECHNOLOGY ENGINEERING</span></button></form></center>
+</div>
+
+<div class="btn-group">
+  <form action="WEBfirst_page.html">
+  <center><button type="submit" name="NEW"><span>Back</span></button>
+  </form>
+
+</body>
+
+</html>
